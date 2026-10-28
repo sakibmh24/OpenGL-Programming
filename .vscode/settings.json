@@ -1,0 +1,16 @@
+{
+    "run.timelimit": 300000,
+    "run.compiler": "\"C:\\msys64\\ucrt64\\bin\\g++.exe\"",
+    "run.compilerArgs": "-lfreeglut -lopengl32 -lglu32 -lwinmm -lgdi32 -Wl,--subsystem,windows",
+    "run.compilerDirectory": "C:\\msys64\\ucrt64\\bin\\",
+    "C_Cpp.formatting": "vcFormat",
+    "breadcrumbs.enabled": false,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "mingw*": true,
+        "Program.exe": true
+    },
+    "run.inputFile": "${workspaceFolder}\\Input.txt",
+    "run.outputFile": "${workspaceFolder}\\Output.txt"
+}
